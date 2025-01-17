@@ -1,0 +1,23 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<label class="form-label">Countries</label>
+<select class="form-select" @onchange="OnCountryChanged">
+    <option value="1">USA</option>
+    <option value="2">Canada</option>
+    <option value="3">UK</option>
+</select>
+
+@code {
+
+    private void OnCountryChanged(ChangeEventArgs e)
+    {
+
+    }
+
+}
